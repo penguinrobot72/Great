@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - A Pen by penguin robot</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body>
+  <p>早安:D 你需要先給我神奇的通關密語(　◜◡‾)b</p>
+  <input type= "password" id= "ckefgisc" onchange= attention() placeholder= "password">  <button onclick= attention()>login</button>
+  <div><p id= "hide"> </p></div>
+  <div><input type="text" id= "id" onchange= welcome() placeholder= "your name"> <button onclick= welcome()>login</button></div>
+  <div><p id= "another"> </p></div>
+</body>  
+<script>
+    function attention(){
+      var attention = document.getElementById("ckefgisc");
+      if (ckefgisc.value === "ckefgisc"){
+         alert("Hello my friend･*･:≡(　ε:)");
+         document.getElementById("hide").innerHTML = "What your name? I forgot it ʕ•͡ᴥ•ʔ";
+      }else{
+         alert("你是不是北極派來的駭客(・`ω´・)");
+      }
+    }
+      
+</script>  
+<script>
+    function welcome(){
+      alert("早安朋友 我記住你了((└(:3」┌)┘))");
+      document.getElementById("another").innerHTML = 'GOOD MORNING,'+id.value+' (d＇∀＇)';
+      }
+</script>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

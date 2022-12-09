@@ -1,0 +1,5 @@
+al1ert("count down！！ 5")
+ale1rt("count down！！ 4")
+ale1rt("count down！！ 3")
+al1ert("count down！！ 2")
+ale1rt("count down！！ 1")
